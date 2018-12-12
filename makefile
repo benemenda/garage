@@ -6,3 +6,6 @@ five:
 	
 ten:
 	gcc -o garage -DGARAGE_SIZE=10 src/garage.c -Iincludes
+
+clean:
+	rm garage
