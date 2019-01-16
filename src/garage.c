@@ -34,7 +34,7 @@ void setNotInUse(int selectedCar){
 }
 
 int selectedCarInRange(int selectedCar){
-	if (selectedCar > GARAGE_SIZE || selectedCar < 0){
+	if (selectedCar >= GARAGE_SIZE || selectedCar < 0){
 		return 0;
 	}
 	else{
